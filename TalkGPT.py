@@ -12,7 +12,7 @@ while True:
         data = listener.recognize_google(voice)
         model = "text-davinci-003"
 
-        if "exit" in data:
+        if "exit" in data: 
             break
 
     completion = openai.Completion.create(model ="text-davinci-003",
