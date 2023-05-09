@@ -4,7 +4,7 @@ import pyttsx3
 engine = pyttsx3.init()
 listener =sr.Recognizer()
 openai.api_key = "provide your api key here"
-
+ 
 while True:
     with sr.Microphone() as source:
         print("speak now...")
