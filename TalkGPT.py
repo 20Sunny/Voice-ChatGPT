@@ -6,7 +6,7 @@ listener =sr.Recognizer()
 openai.api_key = "provide your api key here"
  
 while True:
-    with sr.Microphone() as source: 
+    with sr.Microphone() as source:
         print("speak now...")
         voice = listener.listen(source)
         data = listener.recognize_google(voice)
