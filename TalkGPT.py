@@ -7,7 +7,7 @@ openai.api_key = "provide your api key here
 
 while True:
     with sr.Microphone() as source: 
-        print("speak now...")
+        print("speak now...") 
         voice = listener.listen(source)
         data = listener.recognize_google(voice)
         model = "text-davinci-003"
